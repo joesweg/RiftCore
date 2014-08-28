@@ -1,0 +1,18 @@
+name: RiftCore
+version: 1.0
+author: ZudoHackz (ZudoMC)
+main: net.riftnetwork.core.Main
+prefix: The Rift MC Core Plugin
+depends: BarAPI
+loadbefore: [RiftLobby]
+
+commands:
+ npc:
+  description: NPCs
+  usage: /npc <add/tp/remove> [EntityName]
+  permission: riftlobby.admin
+ getlogon:
+  description: Logon a user.
+ verify:
+  description: Verify your account.
+  usage: Try /verify <email address>
